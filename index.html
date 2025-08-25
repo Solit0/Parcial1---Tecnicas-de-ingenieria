@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada Académica</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .cover-page {
+            width: 8.5in; /* Tamaño de una hoja A4 o Carta */
+            height: 11in;
+            padding: 1in;
+            box-sizing: border-box;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .header, .footer {
+            text-align: center;
+        }
+        .header img {
+            max-width: 150px; /* Ajusta el tamaño del logo */
+            margin-bottom: 20px;
+        }
+        .title-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 50px;
+        }
+        .info-section {
+            margin-top: 50px;
+            text-align: left;
+            padding-left: 20%;
+        }
+        .info-section p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .footer p {
+            font-size: 1em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cover-page">
+        <div class="header">
+            <img src="https://via.placeholder.com/150" alt="Logo de la Institución">
+            <p>Universidad Católica de El Salvador</p>
+            <p>Facultad de Ingeniería y Arquitectura</p>
+        </div>
+
+        <div class="title-section">
+            <p class="subtitle">Trabajo de parcial de la asignatura de:</p>
+            <h1>Tecnicas de ingenieria de software</h1>
+        </div>
+
+        <div class="info-section">
+            <p><strong>Tema:</strong></p>
+            <p>Parcial 1</p>
+            <br>
+            <p><strong>Presentado por:</strong></p>
+            <p>Luis Balcáceres</p>
+            <p>David Solito</p>
+            <br>
+            <p><strong>Docente:</strong></p>
+            <p>Ing. Robin Castillo</p>
+        </div>
+        
+        <div class="footer">
+            
+            <p>25 de agosto de 2025</p>
+        </div>
+    </div>
+
+</body>
+</html>
